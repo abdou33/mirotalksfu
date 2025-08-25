@@ -1402,7 +1402,7 @@ async function shareRoom(useNavigator = false) {
             share();
         }
     } else {
-        share();
+        // share();
     }
     function share() {
         sound('open');

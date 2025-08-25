@@ -46,8 +46,8 @@ let BRAND = {
     },
     site: {
         title: 'MiroTalk SFU, Free Video Calls, Messaging and Screen Sharing',
-        icon: '../images/logo.svg',
-        appleTouchIcon: '../images/logo.svg',
+        icon: '../images/logo.png',
+        appleTouchIcon: '../images/logo.png',
         newRoomTitle: 'Pick name. <br />Share URL. <br />Start conference.',
         newRoomDescription:
             "Each room has its disposable URL. Just pick a room name and share your custom URL. It's that easy.",

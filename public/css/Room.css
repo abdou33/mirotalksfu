@@ -4,6 +4,25 @@
 # Keyframes
 --------------------------------------------------------------*/
 
+/* added by abdellah */
+#videos {
+    position: relative; /* ensures overlay is scoped here */
+}
+
+#logo-overlay {
+    position: absolute;
+    top: 10px; /* space from top; adjust as needed */
+    left: 10px; /* space from left */
+    z-index: 9999; /* stays above video tiles */
+}
+
+#logo-overlay img {
+    height: 150px; /* adjust logo size */
+    opacity: 0.85; /* optional transparency */
+}
+
+/* end added by abdellah */
+
 @-webkit-keyframes fadeIn {
     from {
         opacity: 0;
